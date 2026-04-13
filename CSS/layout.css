@@ -1,0 +1,23 @@
+.header, .footer {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+.footer {
+    border-top: 1px solid var(--border);
+
+}
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.nav {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.main_content {
+    padding: 1.5rem 0;
+}

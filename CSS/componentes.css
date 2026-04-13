@@ -1,0 +1,27 @@
+.logo {
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+.section_title {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+}
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+.card_body {
+    padding: 1rem;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;   
+    border-radius: 999px;
+    
+}
