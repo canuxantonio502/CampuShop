@@ -1,0 +1,26 @@
+:root {
+    --background: #FAF9F6;
+    --surface:#ffffff;
+    --text: #1A1A1A;
+    --muted: #737373;
+    --primary: #096E17;
+    --primary-dark: #064d10;
+    --accent: #D2B48C;
+    --border: #e5e7eb;
+    --shadow: 0 4px 20px rgba(17,24,39,0.08);
+    --radius: 8px;
+    --container: 1200px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 0;
+    background: var(--bc);
+    color: var(--text);
+    line-height: 1.5;
+}
