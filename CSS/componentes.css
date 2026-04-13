@@ -45,7 +45,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
 }
-.product-card__image {
+.product__image {
     aspect-ratio: 1/1;
     object-fit: cover;
     background: #eef2ff;
@@ -59,4 +59,29 @@
     background: #eef2ff;
     color: var(--primary-dark);
     font-size: 0.85rem;
+    margin: 0;
+}
+.select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%204%205%22%3E%3Cpath%20fill%3D%22%231A1A1A%22%20d%3D%22M2%200L0%202h4L2%200zm0%205l2-2H0l2%202z%22/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 0.65rem;
+}
+.option {
+    padding: 0.9rem 1rem;
+    font-size: 0.65rem;
+}
+.search-btn {
+    transform: translateX(-5px);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    
+}
+.search-bar {
+    width: 100%;
+    border-radius: 14px;
+    background: #fff;
+    display: flex;
 }

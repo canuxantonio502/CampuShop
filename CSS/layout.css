@@ -1,10 +1,11 @@
 .header, .footer {
     background: var(--surface);
     border-bottom: 1px solid var(--border);
+    margin: -1rem 0;
 }
 .footer {
     border-top: 1px solid var(--border);
-
+    margin: -1rem 0;
 }
 .header_content {
     display: flex;
@@ -20,4 +21,14 @@
 }
 .main_content {
     padding: 1.5rem 0;
+}
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 10px;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.5;
 }
