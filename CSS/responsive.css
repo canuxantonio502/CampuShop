@@ -1,0 +1,13 @@
+@media (min-width: 640px){
+    grid-products {
+        grid-template-columns: (2, 1fr);
+    }
+}
+@media (min-width: 960px){
+    grid-products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+main-content {
+    padding: 2rem 0;
+}

@@ -1,8 +1,10 @@
-.logo {
-    font-weight: 800;
-    font-size: 1.25rem;
-    color: var(--primary);
-}
+.logo-link {
+    display: flex; /* o flex si necesitas */
+  }
+  
+.logo-link img {
+    height: 100px; /* o el tamaño que uses */
+  }
 .section_title {
     margin: 0 0 1rem;
     font-size: 1.25rem;
@@ -28,6 +30,16 @@
     color: #fff;
     cursor: pointer;
     transition: transform 0.2s ease, background-color 0.2s ease;   
+}
+.menu-btn {
+    font-size: 40px;
+    cursor: pointer;
+}
+.carrito-link {
+    display: flex;
+}
+.carrito-link img {
+    height: 40px;
 }
 .btn:hover {
     background: var(--primary-dark);
@@ -61,13 +73,6 @@
     font-size: 0.85rem;
     margin: 0;
 }
-.select {
-    appearance: none;
-    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%204%205%22%3E%3Cpath%20fill%3D%22%231A1A1A%22%20d%3D%22M2%200L0%202h4L2%200zm0%205l2-2H0l2%202z%22/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 0.75rem center;
-    background-size: 0.65rem;
-}
 .option {
     padding: 0.9rem 1rem;
     font-size: 0.65rem;
@@ -84,4 +89,11 @@
     border-radius: 14px;
     background: #fff;
     display: flex;
+}
+.precio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
 }

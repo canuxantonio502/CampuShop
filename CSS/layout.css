@@ -4,15 +4,19 @@
     margin: -1rem 0;
 }
 .footer {
+    font-size: 0.8rem;
+    color: #8A8888;
     border-top: 1px solid var(--border);
     margin: -1rem 0;
+    text-align: center;
 }
 .header_content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 1rem;
     padding: 1rem 0;
+    padding-bottom: -1rem;
 }
 .nav {
     display: flex;
@@ -32,3 +36,30 @@ body {
     color: var(--text);
     line-height: 1.5;
 }
+
+#menu-toggle {
+    display: none;
+  }
+  
+  /* Botón */
+  .menu-btn {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Menú oculto */
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #225E22;
+    color: white;
+    transition: left 0.3s ease;
+  }
+  
+  /* Cuando el checkbox está activo */
+  #menu-toggle:checked ~ .menu {
+    left: 0;
+  }
