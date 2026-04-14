@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/base.css">
+    <link rel="stylesheet" href="./CSS/componentes.css">
+    <link rel="stylesheet" href="./CSS/layout.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_content">
+            <label for="menu-toggle" class="menu-btn">☰</label>
+            <a href="index.html" class="logo-link"><img class="logo" src="./img/logo.png" alt="Logo CampusShop"></a>
+            <a href="carrito.html" class="carrito-link"><img class="logo" src="./img/carrito.png" alt="Carrito de compras"></a>
+        </div>
+    </header>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <br>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <br>
+        <li><a href="carrito.html">Carrito</a></li>
+        <br>
+        <li><a href="historial.html">Historial</a></li>
+        <br>
+        <li><a href="perfil.html">Perfil</a></li>
+        <br>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main class="main_content">
+        <section>
+            <h1 class="title">Catálogo</h1>
+            <div class="card" style="padding: 1rem; margin-bottom: 1rem;">
+                <select class="select">
+                    <option class="option">Todos los productos</option>
+                    <option class="option">Más vendidos</option>
+                    <option class="option">En oferta</option>
+                </select>
+            </div>
+
+            <div class="grid-products">
+                <article class="card">
+                    <img class="product_image" src="./img/funda_campus.jpg" alt="Funda de Iphone 16 Pro Max Campuslands">
+                    <div class="card_body">
+                        <span class="badge">Oferta</span>
+                        <h2>Funda de Iphone 16 Pro Max</h2>
+                        <div class="precio"><p>Q.180.00</p>
+                        <button class="btn"><a href="./producto.html">Ver producto</a></button></div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="product_image" src="./img/llavero_campus.jpg" alt="Llavero Campuslands">
+                    <div class="card_body">
+                        <span class="badge">Oferta</span>
+                        <h2>Llavero Campuslands</h2>
+                        <div class="precio"><p>Q.50.00</p>
+                            <button class="btn"><a href="./producto.html">Ver producto</a></button></div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="product_image" src="./img/mini-bank.avif" alt="Mini PowerBank Campuslands">
+                    <div class="card_body">
+                        <span class="badge">Oferta</span>
+                        <h2>Mini PowerBank Campuslands</h2>
+                        <div class="precio"><p>Q.350.00</p>
+                            <button class="btn"><a href="./producto.html">Ver producto</a></button></div>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="product_image" src="./img/powerward.avif" alt="Powerward Campuslands">
+                    <div class="card_body">
+                        <span class="badge">Oferta</span>
+                        <h2>Powerward Campuslands</h2>
+                        <div class="precio"><p>Q.1,550.00</p>
+                            <button class="btn"><a href="./producto.html">Ver producto</a></button></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p> &#174 CampusShop - Proyecto académico</p>
+        </div>
+    </footer>
+</body>
+</html>

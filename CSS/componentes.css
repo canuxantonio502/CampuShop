@@ -3,7 +3,7 @@
   }
   
 .logo-link img {
-    height: 100px; /* o el tamaño que uses */
+    height: 120px; /* o el tamaño que uses */
   }
 .section_title {
     margin: 0 0 1rem;
@@ -32,8 +32,7 @@
     transition: transform 0.2s ease, background-color 0.2s ease;   
 }
 .menu-btn {
-    font-size: 40px;
-    cursor: pointer;
+    color: var(--primary-dark);
 }
 .carrito-link {
     display: flex;
