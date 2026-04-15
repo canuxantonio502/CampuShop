@@ -40,10 +40,78 @@
     </nav>
 
     <main class="main_content">
-        <a class="btn2" href="carrito.html">Volver al carrito</a>
-        <div class="container">
-            <p></p>
-        </div>
+        <header class="checkout_header">
+            <a class="btn2" href="carrito.html">Volver al carrito</a>
+            <h1>Checkout</h1>
+        </header>
+
+        <section class="card">
+            <div class="card_body">
+                <h2 class="title">Envío</h2>
+                <label for="">Nombre completo</label>
+                <input class="input" type="text" placeholder="Ingresa tu nombre completo">
+                <label for="">Dirección</label>
+                <input class="input" type="text" placeholder="Ingresa tu dirección">
+                <label for="">Ciudad</label>
+                <input class="input" type="text" placeholder="Ingresa tu ciudad"> 
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card_body">
+                <h2 class="title">Métodos de pago</h2>
+                <div class="methods">
+                    <div class="payment active">
+                        <span>💳</span>
+                        <p>Visa</p>
+                    </div>
+                    <div class="payment">
+                        <span>💳</span>
+                        <p>MasterCard</p>
+                    </div><div class="payment">
+                        <span>👛</span>
+                        <p>Paypal</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="summary">
+            <div class="card_body">
+                <h2 class="title">Resumen de tu Orden</h2>
+                <div class="item">
+                    <img src="./img/mouse_campus.webp" alt="Mouse Campuslands">
+                    <div>
+                        <p>Mouse Campuslands</p>
+                        <span>Cantidad 1</span>
+                    </div>
+                    <strong>Q.140.00</strong>
+                </div>
+                <div class="item">
+                    <img src="./img/gorra_campus.webp" alt="Gorra Campuslands">
+                    <div>
+                        <p>Gorra Campuslands</p>
+                        <span>Cantidad 1</span>
+                    </div>
+                    <strong>Q.120.00</strong>
+                </div>
+                <div class="item">
+                    <img src="./img/jogger-nasa.webp" alt="Jogger Nasa Campuslands">
+                    <div>
+                        <p>Jogger Nasa Campuslands</p>
+                        <span>Cantidad 1</span>
+                    </div>
+                    <strong>Q.150.00</strong>
+                </div>
+            </div>
+            <hr>
+            <div class="total_summary">
+                <span>Tottal</span>
+                <strong>Q.410.00</strong>
+            </div>
+        </section>
+
+        <button class="btn_checkout">Pagar Q.410.00</button>
     </main>
 
     <footer class="footer">
