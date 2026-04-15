@@ -5,9 +5,9 @@
 .logo-link img {
     height: 120px; /* o el tamaño que uses */
   }
-.section_title {
-    margin: 0 0 1rem;
-    font-size: 1.25rem;
+.title {
+    margin: 0;
+
 }
 .card {
     background: var(--surface);
@@ -48,6 +48,19 @@
 .btn:hover {
     background: var(--primary-dark);
     transform: translateY(-1px);
+}
+.btn2 {
+    background-color: var(--surface);
+    border: 1px solid var(--primary);
+    border-radius: var(--radius);
+    padding: 8px;
+    margin-bottom: -1rem;
+}
+.btn2:hover {
+    background-color: var(--primary);
+    border-radius: var(--radius);
+    transform: scale(1.1);
+    color: white;
 }
 .input, .select, .textarea {
     width: 100%;
@@ -109,4 +122,13 @@
     padding: 1rem;
     border: 1px solid var(--primary-dark);
     border-radius: 20px;
+}
+.profile {
+    border: 1px solid var(--primary-dark);
+    border-radius: 50%;
+    justify-content: space-around;
+    width: 150px;  /* Ajusta el ancho a tu gusto */
+    height: 150px; /* Mantén el mismo alto para que sea un círculo perfecto */
+    object-fit: cover; /* Evita que la imagen se estire o deforme */
+    border-radius: 50%; /* Asegura que se mantenga circular */
 }
