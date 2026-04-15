@@ -16,6 +16,11 @@
     box-shadow: var(--shadow);
     overflow: hidden;
 }
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .card_body {
     padding: 1rem;
 }
