@@ -1,13 +1,11 @@
 .logo-link {
-    display: flex; /* o flex si necesitas */
+    display: flex;
   }
-  
 .logo-link img {
-    height: 120px; /* o el tamaño que uses */
+    height: 120px;
   }
 .title {
     margin: 0;
-
 }
 .card {
     background: var(--surface);
@@ -50,6 +48,7 @@
     transform: translateY(-1px);
 }
 .btn2 {
+    display: inline-flex;
     background-color: var(--surface);
     border: 1px solid var(--primary);
     border-radius: var(--radius);
@@ -59,7 +58,7 @@
 .btn2:hover {
     background-color: var(--primary);
     border-radius: var(--radius);
-    transform: scale(1.1);
+    transform: 1s ease background-color var(--primary-dark);
     color: white;
 }
 .input, .select, .textarea {
@@ -124,7 +123,7 @@
     border-radius: 20px;
 }
 .profile {
-    border: 1px solid var(--primary-dark);
+    border: 4px solid var(--primary-dark);
     border-radius: 50%;
     justify-content: space-around;
     width: 150px;  /* Ajusta el ancho a tu gusto */
@@ -216,4 +215,16 @@ label {
 }
 .carrito {
     width: 45%;
+}
+.btn_pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;   
+    border-radius: 999px;
+    padding: 0.85rem 1.2rem;
+    background: var(--primary);
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
 }
