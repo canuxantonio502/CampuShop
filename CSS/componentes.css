@@ -101,3 +101,12 @@
     gap: 1rem;
     padding: 1rem 0;
 }
+.precio_total {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--primary-dark);
+    border-radius: 20px;
+}

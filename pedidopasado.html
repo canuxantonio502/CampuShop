@@ -19,61 +19,36 @@
             <a href="index.html" class="logo-link"><img class="logo" src="./img/logo.png" alt="Logo CampusShop"></a>
             <a href="carrito.html" class="carrito-link"><img class="logo" src="./img/carrito.png" alt="Carrito de compras"></a>
         </div>
-
-        <input type="checkbox" id="menu-toggle">
-
-        <nav class="menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <br>
-            <li><a href="catalogo.html">Catálogo</a></li>
-            <br>
-            <li><a href="carrito.html">Carrito</a></li>
-            <br>
-            <li><a href="historial.html">Historial</a></li>
-            <br>
-            <li><a href="perfil.html">Perfil</a></li>
-            <br>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
     </header>
 
+    <input type="checkbox" id="menu-toggle">
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <br>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <br>
+        <li><a href="carrito.html">Carrito</a></li>
+        <br>
+        <li><a href="historial.html">Historial</a></li>
+        <br>
+        <li><a href="perfil.html">Perfil</a></li>
+        <br>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
     <main class="main_content">
-        <section class="hero card">
-            <div class="card_body">
-                <p class="badge" >Campuslands E-commerce</p>
-                <h1 class="title" style="margin: 0;">Bienvenido a CampusShop</h1>
-                <p>Compra productos dentro del entorno Campus</p>
-                <form class="search-bar" action="#" method="get">
-                    <input 
-                        class="input search-bar"
-                        type="search"
-                        name="buscar"
-                        placeholder="Buscar productos...">
-                    <button class="btn search-btn" type="submit">Buscar</button>
-                </form>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="title">Categorías</h2>
-            <div class="categories-grid">
-                <a href="tecnologia.html"><article class="card"><div class="card_body">Tecnología</div></article></a>
-                <a href="vestimenta.html"><article class="card"><div class="card_body">Vestimentas</div></article></a>
-                <a href="accesorios.html"><article class="card"><div class="card_body">Accesorios</div></article></a>
-            </div>
-        </section>
-
         <section class="content-section">
-            <h2 class="section-title">Productos destacados</h2>
+            <h2 class="section-title">Mis productos de esta compra:</h2>
             <div class="grid-products">
                 <article class="card">
                     <img class="product_image" src="./img/mouse_campus.webp" alt="Mouse Campuslands">
                     <div class="card_body">
                         <span class="badge">Oferta</span>
                         <h2>Mouse Campuslands</h2>
-                        <div class="precio"><p>Q.140.00</p>
+                        <div class="precio_total"><p>Q.140.00</p>
                         <button class="btn"><a href="./mouse.html">Ver producto</a></button></div>
                     </div>
                 </article>
@@ -82,7 +57,7 @@
                     <div class="card_body">
                         <span class="badge">Oferta</span>
                         <h2>Gorra Unisex Campuslands</h2>
-                        <div class="precio"><p>Q.120.00</p>
+                        <div class="precio_total"><p>Q.120.00</p>
                         <button class="btn"><a href="./gorra.html">Ver producto</a></button></div>
                     </div>
                 </article>
@@ -91,11 +66,21 @@
                     <div class="card_body">
                         <span class="badge">Oferta</span>
                         <h2>Jogger Nasa Campuslands</h2>
-                        <div class="precio"><p>Q.150.00</p>
+                        <div class="precio_total"><p>Q.150.00</p>
                         <button class="btn"><a href="./jogger.html">Ver producto</a></button></div>
                     </div>
                 </article>
             </div>
+        </section>
+        <hr>
+        <section class="content-section">
+            <article class="card">
+                <div class="card_body">
+                    <span class="badge">Total</span>
+                    <h2>Pedido #12345</h2>
+                    <div class="precio_total"><p>Q.410.00</p></div>
+                </div>
+            </article>
         </section>
     </main>
 
