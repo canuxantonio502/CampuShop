@@ -89,6 +89,17 @@
     font-size: 0.85rem;
     margin: 0;
 }
+.badge2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem 0.7rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: #FFCEC7;
+    color: #EB2F1A;
+    font-size: 0.85rem;
+    margin: 0;
+}
 .option {
     padding: 0.9rem 1rem;
     font-size: 0.65rem;
@@ -227,4 +238,33 @@ label {
     color: #fff;
     cursor: pointer;
     transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.comparar-table {
+    width: 100%;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+.comparar-table th, .comparar-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 50%;
+    border-radius: var(--radius);
+}
+.comparar-table tbody tr:nth-child(odd) {
+    background-color: #E8F5E6;
+}
+
+.comparar-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.comparar-table img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 0.5rem;
+    margin: auto;
+    border-radius: var(--radius);
 }
